@@ -5,6 +5,8 @@
 //  Created by Mufti, Shayan on 5/14/22.
 //
 
+// Creates the HeaderView for our project (first view we see when app opens)
+
 import SwiftUI
 
 struct HeaderView: View {
@@ -63,7 +65,7 @@ struct HeaderView: View {
                 
             }, content: {
                 //Text("Search view goes here")
-                SearchView()
+                SearchView()        // call SearchView to display search bar for stocks
             })
         
         }
